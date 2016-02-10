@@ -1,0 +1,26 @@
+$navbar-default-bg: black;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.center{
+	text-align: center;
+}
+
+.navbar-brand{
+	font-size : 20px;
+
+}
+
+.navbar-brand:hover{
+	color: #fff;
+	text-decoration: none;
+	}
+
+
+.jumbotron{
+	background-image: asset-url('Active-Directory-Analysis.png');
+	background-size: cover;
+	height: 750px;
+	margin-top: 100px;
+	}
