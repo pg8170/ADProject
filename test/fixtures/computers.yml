@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  computername: MyString
+  operatingsystem: MyString
+  passwordage: 1
+  disabled: MyString
+
+two:
+  computername: MyString
+  operatingsystem: MyString
+  passwordage: 1
+  disabled: MyString
