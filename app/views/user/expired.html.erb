@@ -1,1 +1,21 @@
 <h1 align = "center">User Disabled</h1>
+
+<%= grid(@users) do |g|
+
+  g.column name: 'Name',attribute: 'username' do |task|
+    task.username
+  end
+
+  g.column name: 'Office',attribute: 'office'  do |task|
+    task.office
+  end
+
+  g.column name: 'Address',attribute: 'address' do |task|
+    task.address
+  end
+
+  g.column name: 'Disabled',attribute: 'disabled' do |task|
+    task.disabled
+  end
+
+end -%>

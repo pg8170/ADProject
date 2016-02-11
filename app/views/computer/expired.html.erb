@@ -1,1 +1,21 @@
 <h1 align = "center">Computer Disabled</h1>
+
+<%= grid(@computers) do |g|
+
+  g.column name: 'Name',attribute: 'computername' do |task|
+    task.computername
+  end
+
+  g.column name: 'OperatingSystem',attribute: 'operatingsystem'  do |task|
+    task.operatingsystem
+  end
+
+  g.column name: 'PasswordAge',attribute: 'passwordage' do |task|
+    task.passwordage
+  end
+
+  g.column name: 'Disabled',attribute: 'disabled' do |task|
+    task.disabled
+  end
+
+end -%>

@@ -17,11 +17,12 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'will_paginate','3.0.7'
+#gem 'will_paginate','3.0.7'
 
 
 gem "wice_grid", '3.6.0.pre4'
 gem 'font-awesome-sass',  '~> 4.3'
+gem 'ransack'
 
 
 # Use jquery as the JavaScript library

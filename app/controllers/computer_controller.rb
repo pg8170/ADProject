@@ -8,7 +8,8 @@ class ComputerController < ApplicationController
 	end
 
 	def expired
-
-	end
+	@q = Computer.ransack({ disabled_eq: 'Yes' }, { auth_object: :admin })
+    @computers = initialize_grid(@q.result)
+  	end
 
 end
