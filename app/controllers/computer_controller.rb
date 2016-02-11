@@ -2,7 +2,8 @@ class ComputerController < ApplicationController
 
 	def show
 
-	@computer = Computer.all
+	#@computers = Computer.all
+	@tasks_grid = initialize_grid(Computer)
 
 	end
 

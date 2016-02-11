@@ -2,6 +2,9 @@ $navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "wice_grid";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 
 #logo{
@@ -44,6 +47,6 @@ $navbar-default-bg: black;
 	color: blue;
 	text-align: center;
 	margin-bottom: 30px;
-	letter-spacing: -1px;
+	letter-spacing: - 1px;
 	font-weight: bold;
 }
